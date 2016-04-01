@@ -1,0 +1,36 @@
+$abajo: 50px
+$logo: 15px
+$tex: 28px
+//colores
+$salmon: #F57C57
+$naranja: #F4602B
+$blanco: #ffffff
+=logo($tex)
+   color: $naranja
+   font-size: $tex
+=more($naranja)
+   
+   color: $blanco
+
+.salmon1
+   background-color: $blanco
+.salmo
+   +logo($naranja)
+.salmo2
+   +logo($salmon)
+.a 
+   color: $salmon
+.prue
+   margin-top: 70px
+   color: $naranja
+h4
+   color: $naranja
+.more
+   +more($naranja)
+
+.sub
+   +logo(22px)
+.cuadronaranja
+   background-color: $naranja
+   width: 100%
+   height: 200px
